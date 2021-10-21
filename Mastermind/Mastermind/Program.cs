@@ -10,7 +10,7 @@ namespace Mastermind
             ChoixCombi(out combi);
             Afficher(combi);
         }
-
+        //Créer une combinaison de 4 couleurs//
         static void ChoixCombi(out int[] combi)
         {
             combi = new int[4];
